@@ -1,0 +1,87 @@
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  top: 0; 
+  width: 100%; 
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+  background: white;
+  color: black;
+}
+.main {
+    padding: 16px;
+    margin-bottom: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
+  body{background-image: url(https://i.redd.it/aygxwl6ij8621.png);
+  }
+
+  h1, h2, h3{
+      color: white;
+      background-color: black;
+  }
+
+  p{
+      color: white;
+      background-color: black
+  }
+
+  ol,ul{
+      color: white;
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      background-color: black;
+      
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: white
+  }
+  
+  td, th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  #jules{
+  position: fixed;
+  bottom: 50px;
+  transform:rotate(270deg);
+  left:650px
+  }
+  
+  h4{
+    text-align: center;
+    color: white;
+    background-color: black;
+  }
+  #loading{
+  position: fixed;
+  bottom: 150px;
+  left:400px
+ }
+ #loading {
+  -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+from {
+-webkit-transform: rotateY(0deg);
+  }
+to {
+-webkit-transform: rotateY(359deg);
+  }
+
+}
