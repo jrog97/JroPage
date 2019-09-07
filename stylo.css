@@ -1,0 +1,80 @@
+body{
+
+    font-size: 1.2em;
+    width: 100%;
+    margin: 0 auto;
+    letter-spacing: 0.5px;
+    
+    background-image: url("https://previews.123rf.com/images/orlydesign/orlydesign1610/orlydesign161000017/66583146-computer-processor-and-motherboard-system-chip-cpu-chip-electronic-circuit-board-with-processor-vect.jpg");
+       
+    
+} 
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    top: 0; 
+    width: 100%; 
+  }
+  .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  
+    .navbar a:hover {
+    background: white;
+    color: black;
+  }
+
+h1,p {
+    text-align:  center;
+    background-color: black;
+    color: white;
+}
+
+h2{
+    background-color: black;
+    color: white;
+}
+
+#AdiFeatures{
+    position: relative;
+    right: -600px;
+}
+
+#totaler{
+    background-color: black;
+    color: white;
+}
+
+#Items{
+    background-color: black;
+    color: white;
+}
+
+#subber{
+    background-color: black;
+    color: white;}
+#taxer{
+    background-color: black;
+    color: white;}
+   
+
+    .button {
+        background-color: black; 
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+      .button:hover {
+        box-shadow: 0 12px 16px 0 blueviolet;
+      }

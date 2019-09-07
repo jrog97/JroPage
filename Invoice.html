@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Invoice</title>
+<Link rel="stylesheet" href="style.css" >
+</head>
+<body>
+      <div id="container">
+                  <div class="navbar">
+                              <a onclick="href = 'Home.html';">Home</a>
+                              <a onclick="href = 'MyStuff.html';">My Experience</a>
+                              <a onclick="href = 'contact.html';">Contact</a>
+                              <a onclick="href ='HW2.html';"> Javascript HW</a>
+                            </div>
+   <header>       
+  <h1>Invoice</h1>
+   </header>
+<hr>
+<h2>Items:</h2>
+<div>Here will appear the items chosen with their prices, if change of heart press the back button in the browser</div>
+<div>
+      <span id="itm"></span>
+
+<br>
+      <span id="itm1"></span>
+<br>
+      <span id="itm2"></span>
+<br>
+      <span id="itm3"></span>
+<br>
+      <span id="itm4"></span>
+
+
+      <h2>Sale:</h2>
+</div>
+      <p1 id="subber">SubTotal:<input type="text" id="subi" size="20" disabled ></p1>
+</div>
+
+<div>
+       <p1 id="taxer">TAX:<input type="text" id="Iva" size="20" disabled></p1>
+</div>
+      <div>
+            <p1 id="totaler">Total:<input type="text" id ="Totl"  size="20" disabled></p1>
+      </div>
+    
+
+<script >
+document.getElementById("subi").value ="$" +  sessionStorage.getItem("su");
+document.getElementById("Iva").value = "$" + sessionStorage.getItem("tax");
+document.getElementById("Totl").value = "$" + sessionStorage.getItem("to");
+document.getElementById("itm").innerHTML = sessionStorage.getItem("Pr");
+document.getElementById("itm1").innerHTML = sessionStorage.getItem("Me");
+document.getElementById("itm2").innerHTML = sessionStorage.getItem("Ad");
+document.getElementById("itm3").innerHTML = sessionStorage.getItem("St");
+document.getElementById("itm4").innerHTML = sessionStorage.getItem("Mo");
+</script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Javascript HW</title>
+<Link rel="stylesheet" href="stylo.css">
+</head>
+
+<body>
+    <div id="container">
+            <div class="navbar">
+                        <a onclick="href = 'Home.html';">Home</a>
+                        <a onclick="href = 'MyStuff.html';">My Experience</a>
+                        <a onclick="href = 'contact.html';">Contact</a>
+                        <a onclick="href ='';"> Javascript HW</a>
+                      </div>
+        
+<h1>Main Components</h1>
+<p>Here You will have the ability to buy the main components for your computer.</p>
+<hr>
+<h2>Processors</h2>
+<select id="Processors" name="Processors">
+        <option value="0">Choose a Processor</option>
+        <option value="999.99">$999.99 Intel i9</option>
+        <option value="599.99">$599.99 Intel i7</option>
+        <option value="255.55">$255.55 Intel i5</option>
+        <option value="255.55">$255.55 Intel Xeon</option>
+        <option value="899.99">$899.99 AMD Ryzen</option>
+        <option value="499.99">$499.99 AMD FX</option>
+        <option value="299.99">$299.99 AMD A-Series</option>
+        <option value="299.99">$299.99 AMD Athlon/Phenom</option>
+      </select>
+      <hr>
+<h2>Motherboards</h2>
+<select id="Motherboards"name="Motherboards" >
+        <option value="0">Choose a Motherboard</option>
+        <option value="109.99">$109.99 ASUS AM4</option>
+        <option value="69.98">$69.98 MSI MPG X570</option>
+        <option value="78.99">$78.99 GIGABYTE X570 AORUS</option>
+        <option value="49.99">$49.99 ASRock X570 Phantom</option>
+      </select>
+      <hr>
+<h2>Memory</h2>
+<select id="Memory"name="Memory" >
+        <option value="0">Choose A Memory</option>
+        <option value="200.00">$200 CORSAIR Vengeance 8GB 260-Pin DDR4 </option>
+        <option value="245.00">$245 Crucial 16GB Kit (8GBx2) DDR4 2400 MT/s </option>
+        <option value="265.00">$265 Ballistix Sport LT 32GB (2 x 16GB) 260-Pin DDR4 </option>
+        <option value="225.00">$225 IG.SKILL Ripjaws Series 16GB (2 x 8GB) 204-Pin DDR3</option>
+      </select>
+      <hr>
+<h2>Storage</h2>
+<select id="Storage" name="Storage">
+            <option value="0">Choose the Storage</option>
+            <option value="50.00">$50 250GB HDD</option>
+            <option value="75.00">$75 500GB HDD</option>
+            <option value="150.00">$150 1TB HDD</option>
+            <option value="125.00">$125 2TB HDD</option>
+            <option value="200.00">$200 5TB HDD</option>
+            <option value="65.00">$65 256GB SSD</option>
+            <option value="105.00">$105 516GB SSD</option>
+            <option value="145.00">$145 1TB SSD</option>
+      </select>
+      <hr>
+<h1>Additional Features</h1>
+<p>Here you can buy additional parts.</p>
+<select id="AdiFeatures" name="AdiFeatures">
+            <option value="0">Additional Features</option>
+            <option name ="CD-ROM" value="50.00">$50 CD-ROM</option>
+            <option name ="Sound System" value="25.00">$25 Sound System</option>
+            <option name =" Computer Case" value="100.00">$100 Computer Case</option>
+            <option name ="HDMI cables" value="15.00">$15 HDMI cables</option>
+            <option name ="High-end Monitor,Keyboard and Mouse"value="299.99">$299.99 High-end Monitor,Keyboard and Mouse</option>
+            <option name =" High-end Monitor"value="199.99">$199.99 High-end Monitor</option>
+            <option name = "Keyboard & Mouse set"value="50.00">$50 Keyboard & Mouse set</option>
+            <option name = "Mouse Only"value="25.00">$25 Mouse Only</option>
+            <Option name = "Keyboard Only"value="39.99">$39.99 Keyboard Only</Option>
+            
+            
+      </select>
+<hr>
+      <div>
+          
+            <p1 id="subber">SubTotal:<input type="text" id="subt" size="20" disabled ></p1>
+            
+      </div>
+      <div>
+            <p1 id="taxer">TAX:<input type="text" id="Iv" size="20" disabled></p1>
+      </div>
+      <div>
+            <p1 id="totaler">Total:<input type="text" id ="Tot"  size="20" disabled></p1>
+      </div>
+      
+     <div>
+      <button class="button" onclick="location.href='Invoice.html';">Checkout</button>
+   </div>
+
+   <script src="Logi.js"></script>
+</body>
+
+</html>
