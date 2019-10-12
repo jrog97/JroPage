@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="textbook.xsl"?>
-<TextBooks
-    xmlns="textbook.xsd"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<TextBooks 
+attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
 <book>
-    <title lang="en">Arduino Cookbook</title>
+    <title>Arduino Cookbook</title>
     <edition> 1st edition </edition>
     <covertype> Hardcover </covertype>
     <authorN> Michael</authorN>
@@ -17,7 +17,7 @@
   </book>
 
   <book>
-    <title lang="en">Data and Computer Communications</title>
+    <title>Data and Computer Communications</title>
     <edition> 9th edition</edition>
     <covertype> Hardcover</covertype>
    <authorN> William</authorN>
@@ -29,7 +29,7 @@
   </book>
 
   <book>
-    <title lang="en">Digital Systems Design Using VHDL</title>
+    <title>Digital Systems Design Using VHDL</title>
     <edition> 3rd Edition</edition>
     <covertype> Hardcover </covertype>
    <authorN> C.H.,  L.K. </authorN>
