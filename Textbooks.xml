@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextBooks
+    xmlns="textbook.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<book>
+    <title lang="en">Arduino Cookbook</title>
+    <edition> 1st edition </edition>
+    <covertype> Hardcover </covertype>
+    <authorN> Michael</authorN>
+    <authorLN> Margolis </authorLN>
+    <publisher> O’Reilly Media,Inc </publisher>
+    <publisher_url>oreilly.com</publisher_url>
+    <year>April 3, 2011</year>
+    <ISBN>978-0-596-80247-9</ISBN>
+  </book>
+
+  <book>
+    <title lang="en">Data and Computer Communications</title>
+    <edition> 9th edition</edition>
+    <covertype> Hardcover</covertype>
+   <authorN> William</authorN>
+   <authorLN> Stallings </authorLN>
+    <publisher>Prentice Hall </publisher>
+    <publisher_url> Prenticehall.com</publisher_url>
+    <year>2010</year>
+    <ISBN> 978-0131392052</ISBN>
+  </book>
+
+  <book>
+    <title lang="en">Digital Systems Design Using VHDL</title>
+    <edition> 3rd Edition</edition>
+    <covertype> Hardcover </covertype>
+   <authorN> C.H.,  L.K. </authorN>
+    <authorLN> Roth, John </authorLN>
+     <publisher>Cengage Learning </publisher>
+     <publisher_url> cengage.com </publisher_url>
+    <year>2017</year>
+    <ISBN>978-1305635142</ISBN>
+  </book>
+
+  </TextBooks>
